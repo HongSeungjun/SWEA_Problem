@@ -37,7 +37,7 @@ public class MedianMean {
 			}
 			// 중간 평균값은 최댓값과 최솟값을 빼주고 8로 나눈다.
 			median = (float) ((sum - (max + min)) / 8.0);
-			// 소수 1자리 까지 표기하기 위해 String.format을 사용
+			// 소수 1자리 까지 표기하기 위해 String.format을 사용.
 			System.out.println("#" + t + " " + String.format("%.0f", median));
 
 		}
